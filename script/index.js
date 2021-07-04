@@ -4,6 +4,11 @@
 /* -                                             - */
 /* ----------------------------------------------- */
 window.onload = () => {
+  /* local storage box */
+  const location = window.location;
+  const storage = window.localStorage;
+  let credentials;
+
   const pageName = {
     domain: "/",
     index: "index.html",
@@ -12,11 +17,7 @@ window.onload = () => {
     profile: "profile.html",
   };
 
-  /* local storage box */
-  const location = window.location;
-  console.log(location.pathname);
-  const storage = window.localStorage;
-  let credentials;
+  console.log(location);
 
   if (storage.getItem("credentials") != null) {
     credentials = JSON.parse(storage.getItem("credentials"));
