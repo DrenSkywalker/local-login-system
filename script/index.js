@@ -14,6 +14,7 @@ window.onload = () => {
 
   /* local storage box */
   const location = window.location;
+  console.log(location.pathname);
   const storage = window.localStorage;
   let credentials;
 
