@@ -23,7 +23,7 @@ window.onload = () => {
     profile: "profile.html",
   };
 
-  console.log(location);
+  console.log(pageName);
 
   if (storage.getItem("credentials") != null) {
     credentials = JSON.parse(storage.getItem("credentials"));
