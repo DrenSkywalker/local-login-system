@@ -10,22 +10,22 @@ window.onload = () => {
   let credentials;
 
   const PUBLIC_APP_DOMAIN = "drenskywalker.github.io";
-  const PUBLIC_APP_DEFAULT_PATH = "/local-login/";
+  const PUBLIC_APP_DEFAULT_PATH = "/local-login-system/";
 
   const pageName = {
     domain:
       location.host === PUBLIC_APP_DOMAIN
-        ?
+        ? PUBLIC_APP_DEFAULT_PATH
         : "/",
     index: "index.html",
     login: "login.html",
     register: "register.html",
     profile: "profile.html",
   };
-  
   if (storage.getItem("credentials") != null) {
     credentials = JSON.parse(storage.getItem("credentials"));
   }
+
   /* ----------------------------------------------- */
   /* -                                             - */
   /* ----------------- INDEX PAGE ------------------ */
