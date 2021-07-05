@@ -3,7 +3,7 @@
 A local login system using "*local storage*" to save user credentials.\
 The project consists of three pages.
 
-![Image of Space](https://img1.pnghut.com/7/5/21/Bm0rcn64KC/designer-creativity-rocket-outer-space-cartoon.jpg)
+![Image of Space](https://banner2.cleanpng.com/20180227/upq/kisspng-flat-design-poster-template-flat-space-technology-rocket-abstract-pattern-5a96281ce4f595.3371239915197901089378.jpg)
 
 ## 🛸 Login Page
 
