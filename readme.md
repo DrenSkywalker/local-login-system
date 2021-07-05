@@ -3,6 +3,8 @@
 A local login system using "*local storage*" to save user credentials.\
 The project consists of three pages.
 
+![Image of Space](https://img1.pnghut.com/7/5/21/Bm0rcn64KC/designer-creativity-rocket-outer-space-cartoon.jpg)
+
 ## 🛸 Login Page
 
 The *login page* contains a form with two fields (e-mail and password) and a submit button. All fields are required. The user needs to provide a valid email (validated by a regex) and a valid password (at least 6 characters long).
