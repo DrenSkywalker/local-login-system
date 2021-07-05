@@ -3,7 +3,10 @@
 A local login system using "*local storage*" to save user credentials.\
 The project consists of three pages.
 
-![Image of Space](https://it.seaicons.com/wp-content/uploads/2015/10/Satellite-icon.png)
+<p align="center">
+  <img src="https://it.seaicons.com/wp-content/uploads/2015/10/Satellite-icon.png">
+</p>
+
 
 ## 🛸 Login Page
 
