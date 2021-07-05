@@ -15,21 +15,13 @@ window.onload = () => {
   const pageName = {
     domain:
       location.host === PUBLIC_APP_DOMAIN
-        ? location.pathname.replace(PUBLIC_APP_DEFAULT_PATH, "")
+        ? PUBLIC_APP_DEFAULT_PATH
         : "/",
     index: "index.html",
     login: "login.html",
     register: "register.html",
     profile: "profile.html",
   };
-
-  console.log(pageName);
-  console.log(location);
-  console.log(PUBLIC_APP_DOMAIN);
-  console.log(location.pathname.replace(PUBLIC_APP_DEFAULT_PATH, ""));
-  console.log(location.host === PUBLIC_APP_DOMAIN);
-  console.log(location.host == PUBLIC_APP_DOMAIN);
-
   if (storage.getItem("credentials") != null) {
     credentials = JSON.parse(storage.getItem("credentials"));
   }
