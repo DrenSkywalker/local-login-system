@@ -4,7 +4,7 @@ A local login system using "*local storage*" to save user credentials.\
 The project consists of three pages.
 
 <p align="center">
-  <img src="https://it.seaicons.com/wp-content/uploads/2015/10/Satellite-icon.png">
+  <img src="https://icons.iconarchive.com/icons/flat-icons.com/flat/512/Satellite-icon.png" width="200px">
 </p>
 
 
